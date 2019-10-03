@@ -100,7 +100,8 @@ nav ul li a {
 /* test */
 body{
   /* background-color: black; */
-  background-color: rgba(103, 128, 159, 1);
+  /* background-color: rgba(103, 128, 159, 1); */
+  background-color: rgba(103, 65, 114,0.7);
   z-index: -99 !important;
 }
 
@@ -127,7 +128,8 @@ body{
   /* background-color: rgba(3, 201, 169, 1)  ; */
   /* background-color: rgba(54, 215, 183, 1)  ; */
   /* background-color:rgba(44, 62, 80, 0.3); */
-  background-color: rgba(103, 65, 114,0.7);
+  /* background-color: rgba(103, 65, 114,0.7); */
+  
   }
 .main-name{
   font-size: 3.9em;
@@ -135,6 +137,7 @@ body{
    background: linear-gradient(to right,#f22613, #f15a22);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+   /* z-index: 99 !important; */
 }
 @media(max-width: 786px) {
   .main-name{
@@ -298,3 +301,7 @@ vertical-align: bottom;
 body{
 margin: 0;
 }
+#test{
+  /* z-index: -1 !important; */
+}
+
